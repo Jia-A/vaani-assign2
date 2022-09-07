@@ -1,0 +1,52 @@
+.footer{
+    background: linear-gradient(#12100E, #1d2633);
+    display: flex;
+    padding: 35px 50px;
+    color: whitesmoke;
+    border-top: 1px solid #1d2633;
+    flex-direction: column;
+}
+
+
+.main-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ql-list, .op-list, .add-list{
+    padding-left: 0;
+    text-align: left;
+}
+.quick, .other, .add{
+    list-style-type: none;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+.quick:hover{
+    text-decoration: underline 1px solid whitesmoke;
+}
+.other:hover{
+    text-decoration: underline 1px solid whitesmoke;
+}
+
+.address{
+    align-self: flex-start;
+}
+
+.ad-icon{
+    padding: 4px;
+}
+
+.contact-icons{
+    align-self: center;
+    margin-top: 20px;
+}
+.fa{
+    color: #1d2633;
+}
+.con-icons{
+    cursor: pointer;
+    margin:0px 10px;
+}
