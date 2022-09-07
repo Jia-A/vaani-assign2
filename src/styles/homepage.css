@@ -1,0 +1,238 @@
+.main::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#181614, #212b3a);
+    clip-path: circle(15% at right 75%);
+}
+.main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#181615, #657894);
+    clip-path: circle(10% at left 15%);
+}
+.main{
+    background: linear-gradient(#12100E, #2B4162);
+    height: 100vh;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+/* navbar css */
+
+/* navbar-over */
+
+/* front-screen-css */
+
+.front-cont{
+    display: flex;
+    margin-top:3rem;
+    margin-bottom: 5rem;
+}
+.hero-image{
+    width: 30rem;
+    height: 25rem;
+}
+.left-cont{
+    width: 50%;
+    text-align: center;
+}
+.right-cont{
+    width: 50%;
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+    z-index: 1;
+    color: whitesmoke;
+}
+.info-card{
+    width: 250px;
+    height: 250px;
+    padding: 3rem;
+    margin-top: 2rem;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.no-link-style{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.card-brand{
+    font-size: 2rem;
+    text-decoration: 1px solid underline #657894;
+}
+
+.extra-line{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* front-css-over */
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(#2B4162, #12100E);
+
+
+}
+
+/* card-css */
+
+.port-card{
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding: 20px;
+
+}
+.main-area{
+    position: absolute;
+    top: 50%;
+    left: 9%; 
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 15px 20px;
+    color: black;
+
+}
+
+h4{
+    margin-bottom: 0px;
+}
+
+.main-info{
+    margin-top: 3px;
+}
+
+.laptop-card{
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+}
+.img-part{
+    padding: 10px;
+    padding-top: 15px;
+    width: 250px;
+
+}
+
+.badge{
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.explore-btn, .card-btn{
+    padding: 7px 20px;
+    font-size: 1rem;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d2633;
+}
+
+.card-btn:hover{
+    color: #1d2633;
+    background-color: whitesmoke;
+}
+
+.explore-btn:hover{
+    background-color: #484f5a;
+}
+
+/* card-css-over */
+
+/* footer-css */
+
+/* .footer{
+    background: linear-gradient(#12100E, #1d2633);
+    display: flex;
+    padding: 35px 50px;
+    color: whitesmoke;
+    border-top: 1px solid #1d2633;
+    flex-direction: column;
+}
+
+
+.main-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ql-list, .op-list, .add-list{
+    padding-left: 0;
+    text-align: left;
+}
+.quick, .other, .add{
+    list-style-type: none;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+.quick:hover{
+    text-decoration: underline 1px solid whitesmoke;
+}
+.other:hover{
+    text-decoration: underline 1px solid whitesmoke;
+}
+
+.address{
+    align-self: flex-start;
+}
+
+.ad-icon{
+    padding: 4px;
+}
+
+.contact-icons{
+    align-self: center;
+    margin-top: 20px;
+}
+.fa{
+    color: #1d2633;
+}
+.con-icons{
+    cursor: pointer;
+    margin:0px 10px;
+} */
+
+/* footer-css-over */
+
+@media screen and (max-width : 950px) {
+    .left-cont{ 
+        width: 90%;
+    }
+    .right-cont{
+        width: 90%;
+    }
+}
