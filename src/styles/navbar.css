@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: whitesmoke;
+    align-items: center;
+    z-index: 1;
+}
+.span-navi{
+    padding: 8px;
+    cursor: pointer;
+}
+.navigate{
+    margin-right: 3rem;
+}
+.active{
+    text-decoration: underline 1px solid whitesmoke;
+}
+.brand-name{
+    margin: 0.5rem 0.5rem 0.5rem 5rem;
+}
+.brand-main{
+    font-style: italic;
+    font-size: 2rem;
+    color: #475a74;
+}
